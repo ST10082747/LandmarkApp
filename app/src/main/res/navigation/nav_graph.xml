@@ -1,0 +1,39 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.landmarkapp.LoginFragment"
+        tools:layout="@layout/fragment_login" />
+
+    <!-- Action: Login -> Map -->
+    <action
+        android:id="@+id/action_loginFragment_to_mapFragment"
+        app:destination="@id/mapFragment" />
+
+    <!-- Register Fragment -->
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.landmarkapp.RegisterFragment"
+        tools:layout="@layout/fragment_register" />
+
+    <!-- Action: Register -> Login -->
+    <action
+        android:id="@+id/action_registerFragment_to_loginFragment"
+        app:destination="@id/loginFragment" />
+
+    <!-- Action: Login -> Register -->
+    <action
+        android:id="@+id/action_loginFragment_to_registerFragment"
+        app:destination="@id/registerFragment" />
+
+    <!-- Map Fragment (new) -->
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.landmarkapp.MapFragment"
+        tools:layout="@layout/fragment_map" />
+
+</navigation>

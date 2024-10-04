@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1053347868422",
+    "project_id": "landmarksapp-7922f",
+    "storage_bucket": "landmarksapp-7922f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053347868422:android:42405025331e8b11357887",
+        "android_client_info": {
+          "package_name": "com.example.landmarkapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvh-Xgj9s5D3ioef4gyjUHJU7NmZcJxus"
+        },
+        {
+          "current_key": "AIzaSyBLmzSo1spUXtLaD220oEi267gCimVfP4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053347868422:android:e4a79f2d078c46ea357887",
+        "android_client_info": {
+          "package_name": "com.example.landmarksapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvh-Xgj9s5D3ioef4gyjUHJU7NmZcJxus"
+        },
+        {
+          "current_key": "AIzaSyBLmzSo1spUXtLaD220oEi267gCimVfP4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
